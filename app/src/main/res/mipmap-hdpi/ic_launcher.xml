@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+    
+    <!-- 背景圆形 -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M36,36m-34,0a34,34 0,1 1,68 0a34,34 0,1 1,-68 0" />
+    
+    <!-- 盾牌 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,12L22,16C22,16 22,28 22,36C22,48 36,56 36,56C36,56 50,48 50,36C50,28 50,16 50,16L36,12Z" />
+    
+    <!-- 眼睛 -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M36,26C32,26 29,29 29,33C29,37 32,40 36,40C40,40 43,37 43,33C43,29 40,26 36,26Z" />
+    
+    <!-- 眼睛中心 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,33m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+</vector>
